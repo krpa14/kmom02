@@ -1,6 +1,5 @@
 <!doctype html>
 <html class='no-js' lang='<?=$lang?>'>
-</head>
 <head>
     <meta charset='utf-8' />
     <title><?=get_title($title)?></title>
@@ -12,7 +11,9 @@
 </head>
 <body>
     <div id='wrapper'>
-        <div id='header'><?=$header?></div>
+        <div id='header'><?=$header?>
+            <?php echo CNavigation::GenerateMenu($menu, 'navbar');?>
+        </div>
         <div id='main'><?=$main?></div>
         <div id='footer'><?=$footer?></div>
     </div>  <!-- wrapper -->

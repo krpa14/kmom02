@@ -38,11 +38,22 @@ $tmoz = array();
 $tmoz['lang'] = 'sv';
 $tmoz['title_append'] = ' | TMOZ framework, en webbtemplate';
 
+
+/**
+ * menu settings
+ */
+$menu = array(
+    'index' => array('text'=>'Me', 'url'=>'index.php'),
+    'redovisning' => array('text'=>'Redovisningar', 'url'=>'redovisning.php'),
+    'kod' => array('text'=>'Källkod', 'url'=>'kod.php'),
+); 
+
+
 /**
  * Theme related settings.
  *
  */
-$tmoz['stylesheets'] = array('css/tmoz.css'); 
+$tmoz['stylesheets'] = array('css/tmoz.css', 'css/navbar.css'); 
 $tmoz['favicon']    = 'tmoz.ico';
 
 /**
