@@ -20,6 +20,7 @@ $text = <<<EOD
 
 <h3>GitHub</h3>
 <p>Jag har lagt upp min kod på GitHub. Det är första gången jag har lagt upp något på GitHub, vilket var lätt och trevligt. Jag tycker att det är en utmärkt idé att använda sig av GitHub på kursen. Jag använder git lokalt som versionshanteringssystem så git kan jag sedan tidigare.</p>
+<a href="https://github.com/krpa14/kmom01">koden på github</a>
 
 <h3>Reflektioner</h3>
 <p>Det här är en ganska stor uppgift som första uppgift på en kurs, speciellt med tanke på att vi ska göra två uppgifter de första tre veckorna. Man behöver dock inte utveckla så mycket kod själv, men det tar en stund att förstå koden, strukturen och tanken bakom. Det svåraste är nog att komma på hur den är tänkt att fungera. Själv tog det mig ett tag innan jag kopplade ihop hur autoloadern fungerade med modulerna. Men när jag förstått det så var det ju inte speciellt komplicerat. Dock vara hela konceptet med en autoloader av klasser helt nytt för mig.</p>

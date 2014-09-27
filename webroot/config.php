@@ -45,9 +45,24 @@ $tmoz['title_append'] = ' | TMOZ framework, en webbtemplate';
 $menu = array(
     'index' => array('text'=>'Me', 'url'=>'index.php'),
     'redovisning' => array('text'=>'Redovisningar', 'url'=>'redovisning.php'),
+    'dicegame' => array('text' => 'Tärningsspel', 'url' => 'dicegame.php'),
     'kod' => array('text'=>'Källkod', 'url'=>'kod.php'),
 ); 
 
+/**
+ * Header 
+ */
+$tmoz['header'] = <<<EOD
+<img class='logo' src='img/logo.png' alt='TMOZ logo'/>
+<span class='sitetitle'>TMOZ framework</span>
+EOD;
+
+/**
+ * Footer
+ */
+$tmoz['footer'] = <<<EOD
+<footer><span class='footer'>Copyright (c) Kristian Persson (kristian_p@yahoo.com)</span></footer>
+EOD;
 
 /**
  * Theme related settings.

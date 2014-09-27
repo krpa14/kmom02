@@ -10,10 +10,10 @@ include(__DIR__.'/config.php');
 
 $tmoz['title'] = "Me - Kristian Persson";
 
-$tmoz['header'] = <<<EOD
-<img class='logo' src='img/logo.png' alt='TMOZ logo'/>
-<span class='sitetitle'>TMOZ framework</span>
-EOD;
+// $tmoz['header'] = <<<EOD
+// <img class='logo' src='img/logo.png' alt='TMOZ logo'/>
+// <span class='sitetitle'>TMOZ framework</span>
+// EOD;
 
 $tmoz['main'] = <<<EOD
 <h1>Me</h1>
@@ -25,8 +25,8 @@ $tmoz['main'] = <<<EOD
 
 EOD;
 
-$tmoz['footer'] = <<<EOD
-<footer><span class='footer'>Copyright (c) Kristian Persson (kristian_p@yahoo.com)</span></footer>
-EOD;
+// $tmoz['footer'] = <<<EOD
+// <footer><span class='footer'>Copyright (c) Kristian Persson (kristian_p@yahoo.com)</span></footer>
+// EOD;
 
 include(TMOZ_THEME_PATH);
