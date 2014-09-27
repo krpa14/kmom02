@@ -29,7 +29,10 @@ kombinationen av sessioner och klasser. Det var en användbar funktion att man k
 <p>
 Jag delade upp mitt spel i tre klasser, CDice, CDiceGameStatus och CDiceGame.<br>
 CDice är en tärning, den kan ha valfritt antal sidor med har som default 6.<br>
-CDiceGameStatus lagrar spelets status mellan sidanropen. Den lagras i sessionen i CDiceGame-klassen.<br>
+CDiceGameStatus lagrar spelets status mellan sidanropen. Den lagras i sessionen i CDiceGame-klassen. Här hade jag lite problem med att autoloadern
+förutsatte att varje klass ligger i en egen mapp under src, den något fula lösningen jag kom på var att bryta ut CDiceGameStatus till en egen mapp, 
+men det stör mig för jag vill helst ha hela tärningsspelet i en mapp, förutom pagecontrollern, css och bilder då.
+<br>
 CDiceGame innehåller spelet logik. Här hanteras spelarens val, som är kasta tärning, spara poäng och börja om spelet.
 Spelets utseende bestäms i dicegame.php som är en pagecontroller i mitt tmoz- (anax) system. dicegame skapar en instans av
 CDiceGame och anropar funktioner i CDiceGame för att hämta ut poäng och bilder på tärningarna. Spelets logik och användar gränssnitt 
@@ -48,7 +51,8 @@ Förutom objekt i sessionen så var det en ganska rakt på uppgift. Det var inga
 lagra spelets status med hopsamlad poäng och slagna tärnignar mellan sidanropen. Resten av programmet är bara kosmetika för att göra det lite snyggare 
 och bättre. <br>
 Jag valde att inte göra några extra uppgifter den här gången. Jag tycker att jag har förstått det som momentet gick ut på och jag har inte riktigt den 
-tiden som krävs för att hinna med extra uppgifterna.
+tiden som krävs för att hinna med extra uppgifterna. <br>
+Koden ligger även på github: <a href="https://github.com/krpa14/kmom02">github kmom02</a>
 </p>
 
 EOD;
